@@ -101,6 +101,7 @@ nav{
 .about-me__info{
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .about-me__picture{
@@ -108,8 +109,8 @@ nav{
 
 /*space below for improving my own picture*/
 
-    transform:scale(1.85);
-    padding-top: 20px;
+ /*   transform:scale(1.85);
+    padding-top: 20px;      */
 }
 
 .about-me__picture--mask{
@@ -121,14 +122,19 @@ nav{
     margin-bottom: 28px;
 }
 
+.about-me__info{
+    display: flex;
+    flex-direction: column;
+}
+
 .about-me__info--container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    max-width: 500px;
+    max-width: 600px;
     margin: 0 auto;
     text-align: center;
+    flex: 1;
 }
 
 .about-me__info--title{
@@ -137,7 +143,7 @@ nav{
 
 .about-me__info--para{
     font-size: 20px;
-    margin-bottom: 16px;
+    margin-bottom: 28px;
 }
 
 .about-me__link{
@@ -148,5 +154,11 @@ nav{
 }
 
 .about-me__img--container{
-    
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.about-me__img{
+    width: 100%;
 }
