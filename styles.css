@@ -25,6 +25,10 @@ li{
     list-style-type: none;
 }
 
+.container{
+    padding: 50px 0;
+}
+
 .flex{
     display: flex;
 }
@@ -47,6 +51,14 @@ li{
 
 .text--purple{
     color: #6030b1;
+}
+
+.section__title{
+    margin-bottom: 20px;
+}
+
+section:nth-child(even){
+    background-color: #f8f8f8;
 }
 
 /* NAVIGATION BAR */
@@ -109,8 +121,8 @@ nav{
 
 /*space below for improving my own picture*/
 
- /*   transform:scale(1.85);
-    padding-top: 20px;      */
+    transform:scale(1.85);
+    padding-top: 20px;      
 }
 
 .about-me__picture--mask{
@@ -160,5 +172,24 @@ nav{
 }
 
 .about-me__img{
+    width: 100%;
+}
+
+/*TECH - STACK*/
+
+.language__img{
+    width: 100%;
+    max-width: 100px;
+}
+
+.language__img--wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+
+.language__list{
+    display: flex;
     width: 100%;
 }
